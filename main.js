@@ -4,7 +4,7 @@ function send(){
     let name = document.getElementById('email').value;
     let phone = document.getElementById('text').value;
   
-    sendtelegram(name  + ' в сайте  ' + phone + '   написал(а) ');   
+    sendtelegram(name  + ' в сайте  ' + phone + '   написал ');   
     document.getElementById('email').value = '';
     document.getElementById('text').value = '';
 };
